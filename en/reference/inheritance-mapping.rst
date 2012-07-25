@@ -4,7 +4,7 @@ Inheritance Mapping
 Mapped Superclasses
 -------------------
 
-An mapped superclass is an abstract or concrete class that provides
+A mapped superclass is an abstract or concrete class that provides
 persistent entity state and mapping information for its subclasses,
 but which is not itself an entity. Typically, the purpose of such a
 mapped superclass is to define state and mapping information that
