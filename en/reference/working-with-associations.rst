@@ -473,6 +473,7 @@ removed from the system:
 
 .. code-block:: php
 
+    <?php
     $user = $em->find('User', $deleteUserId);
     
     foreach ($user->getAuthoredComments() AS $comment) {
@@ -555,7 +556,6 @@ and StandingData:
 .. code-block:: php
 
     <?php
-
     namespace Addressbook;
 
     use Doctrine\Common\Collections\ArrayCollection;
@@ -595,7 +595,6 @@ Now two examples what happens when you remove the references:
 .. code-block:: php
 
     <?php
-
     $contact = $em->find("Addressbook\Contact", $contactId);
     $contact->newStandingData(new StandingData("Firstname", "Lastname", "Street"));
     $contact->removeAddress(1);
