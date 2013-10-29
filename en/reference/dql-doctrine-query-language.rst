@@ -293,7 +293,7 @@ With COUNT DISTINCT:
 
     <?php
     $query = $em->createQuery('SELECT COUNT(DISTINCT u.name) FROM CmsUser');
-    $users = $query->getResult(); // array of ForumUser objects
+    $count = $query->getResult(); // number of distinct usernames
 
 With Arithmetic Expression in WHERE clause:
 
