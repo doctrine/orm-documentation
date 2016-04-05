@@ -120,7 +120,7 @@ the method signature in detail:
      * @param string $class The class name of the joined entity.
      * @param string $alias The unique alias to use for the joined entity.
      * @param string $parentAlias The alias of the entity result that is the parent of this joined result.
-     * @param object $relation The association field that connects the parent entity result with the joined entity result.
+     * @param string $relation The association field that connects the parent entity result with the joined entity result.
      */
     public function addJoinedEntityResult($class, $alias, $parentAlias, $relation)
 
